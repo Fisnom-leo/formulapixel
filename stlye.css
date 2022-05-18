@@ -1,3 +1,8 @@
+
+*{
+    box-sizing: border-box;
+}
+
 form{
    
    font-family: font-family: 'Akshar', sans-serif;;
