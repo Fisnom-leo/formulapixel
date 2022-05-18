@@ -1,0 +1,29 @@
+form{
+   
+   font-family: font-family: 'Akshar', sans-serif;;
+    margin-left: 700px;
+    margin-top: 200px;
+}
+.btk{
+    width: 400px;
+    height: 40px;
+    background-color: rgba(169, 169, 169, 0.23);
+    border-radius: 10px;
+   
+}
+.bt{
+    width: 400px;
+    height: 40px;
+background: orange; 
+ cursor: pointer;
+ border-radius: 10px;
+}
+h1{
+    font-family: 'Akshar', sans-serif;
+}
+.bg{
+    font-family: 'Akshar', sans-serif;
+}
+span{
+color: red;
+}
