@@ -1,34 +1,142 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
 
 *{
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img{
+    
+    width: 40px;
+}
+.logo{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+ 
+   
+}
+.logo p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
 }
 
 form{
    
-   font-family: font-family: 'Akshar', sans-serif;;
-    margin-left: 700px;
-    margin-top: 200px;
+    width: 30%;
+   
+    margin-top: 100px;
+
+    
 }
+form div{
+    margin-top: 34px;
+}
+
+
 .btk{
-    width: 400px;
-    height: 40px;
+    width: 100%;
+    height: 50px;
     background-color: rgba(169, 169, 169, 0.23);
-    border-radius: 10px;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 7px;
    
 }
 .bt{
-    width: 400px;
-    height: 40px;
-background: orange; 
+    width: 100%;
+   
+background:#de4c27 ; 
  cursor: pointer;
- border-radius: 10px;
+ border-radius: 3px;
+ color: white;
+ border: none;
+ font-weight: bold;
+ font-size: 1.2rem;
+ padding: 0.5em;
 }
 h1{
-    font-family: 'Akshar', sans-serif;
+    
+    margin-bottom: 7px;
 }
 .bg{
     font-family: 'Akshar', sans-serif;
 }
 span{
 color: red;
+}
+.sp{
+    margin-bottom: 50px;
+    display: inline-block ;
+    
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(35, 30, 30);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+footer a{
+    text-decoration: none;
+}
+footer a span{
+    color: #6b7280;
+    font-size: 1.4rem;
+    font-weight: 200;
+
+
+}
+a{
+color: #6b7280;
+}
+label{
+    display: block;
+}
+footer p:first-of-type {
+    color: #6b7280;
+    font: size 0.9rem;
+    margin-top: 2%;
+     
+}
+footer strong{
+    font-size: 1.2rem;
+}
+footer p:last-child span{
+    font-size: 0.9rem;
+    font-weight: bold ;
+   
+}
+footer p:last-child{
+    color: #6b7280;
+    font-size: 0.9rem ;
+    margin: 20px 0px 50px    ;
+}
+footer > div{
+}
+
+.formcontain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
