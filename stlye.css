@@ -1,87 +1,77 @@
-body{
+body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 
-
-*{
+* {
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
 }
-img{
-    
+img {
     width: 40px;
 }
-.logo{
+.logo {
     display: flex;
     padding: 1%;
     align-items: center;
- 
-   
 }
-.logo p{
+.logo p {
     margin-left: 10px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
 
-form{
-   
+form {
     width: 30%;
-   
+
     margin-top: 100px;
-
-    
 }
-form div{
+form div {
     margin-top: 34px;
+    cursor: pointer;
 }
 
-
-.btk{
+.btk {
     width: 100%;
     height: 50px;
     background-color: rgba(169, 169, 169, 0.23);
     border-radius: 3px;
     border: none;
     padding: 0px 7px;
-   
 }
-.bt{
+.bt {
     width: 100%;
-   
-background:#de4c27 ; 
- cursor: pointer;
- border-radius: 3px;
- color: white;
- border: none;
- font-weight: bold;
- font-size: 1.2rem;
- padding: 0.5em;
+
+    background: #de4c27;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5em;
 }
-h1{
-    
+.bt:hover{
+    background: #c15f46;
+}
+h1 {
     margin-bottom: 7px;
 }
-.bg{
-    font-family: 'Akshar', sans-serif;
+.bg {
+    font-family: "Akshar", sans-serif;
 }
-span{
-color: red;
+span {
+    color: red;
 }
-.sp{
+.sp {
     margin-bottom: 50px;
-    display: inline-block ;
-    
+    display: inline-block;
+    cursor: pointer;
 }
-
-
-
 
 .footer {
     position: fixed;
@@ -94,49 +84,46 @@ color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
-footer a{
+footer a {
     text-decoration: none;
 }
-footer a span{
+footer a span {
     color: #6b7280;
     font-size: 1.4rem;
     font-weight: 200;
-
-
+    
 }
-a{
-color: #6b7280;
+a {
+    color: #6b7280;
 }
-label{
+label {
     display: block;
 }
 footer p:first-of-type {
     color: #6b7280;
     font: size 0.9rem;
     margin-top: 2%;
-     
 }
-footer strong{
+footer strong {
     font-size: 1.2rem;
 }
-footer p:last-child span{
+footer p:last-child span {
     font-size: 0.9rem;
-    font-weight: bold ;
-   
+    font-weight: bold;
+    cursor: pointer;
 }
-footer p:last-child{
+footer p:last-child {
     color: #6b7280;
-    font-size: 0.9rem ;
-    margin: 20px 0px 50px    ;
+    font-size: 0.9rem;
+    margin: 20px 0px 50px;
+    
 }
-footer > div{
+footer > div {
 }
 
-.formcontain{
+.formcontain {
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
