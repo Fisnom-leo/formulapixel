@@ -71,6 +71,8 @@ span {
     margin-bottom: 50px;
     display: inline-block;
     cursor: pointer;
+    
+    ;
 }
 
 .footer {
@@ -126,4 +128,7 @@ footer > div {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+a{
+    text-decoration: none;
 }
